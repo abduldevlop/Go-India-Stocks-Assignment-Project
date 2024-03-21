@@ -3,19 +3,12 @@ import { AiFillDollarCircle, AiOutlineUser } from "react-icons/ai";
 import { BiMessageAltDetail } from "react-icons/bi";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoNotificationsOutline } from "react-icons/io5";
+import { marketStores } from "../constants";
 
 const SideBar = () => {
-  const marketStores = [
-    { id: 1, title: "Sentiment" },
-    { id: 2, title: "Market" },
-    { id: 3, title: "Sector" },
-    { id: 4, title: "Watchlist" },
-    { id: 5, title: "Events" },
-    { id: 5, title: "News/Interview" },
-  ];
   return (
     <aside>
-      <div className="flex justify-between border-b px-4 pb-4">
+      <div className="flex justify-between border-b px-4 pb-4 ">
         <div className="flex gap-2 items-center">
           <AiOutlineUser size={25} />
           <h4>

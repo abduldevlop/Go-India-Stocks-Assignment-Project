@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Go India Stocks Assignment Project Documentation
 
-## Getting Started
+This documentation provides guidance on setting up and using the "Go India Stocks Assignment" project. This project utilizes Next.js for building web applications and Tailwind CSS for styling.
 
-First, run the development server:
+## Table of Contents
 
-```bash
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+To set up the project, follow these steps:
+
+1. Clone the repository from GitHub:
+
+git clone <repository_url>
+
+2. Navigate into the project directory:
+
+cd Go-India-Stocks-Assignment-Project
+
+3. Install dependencies using npm:
+
+npm install
+
+## Usage
+
+After installation, you can run the project locally using the following command:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server, and you can access the website at `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Folder Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The project's folder structure is organized as follows:
 
-## Learn More
+- **pages/**: Contains Next.js pages, such as `layout.tsx` for the main page.
+- **components/**: Contains reusable React components used throughout the application.
+- **styles/**: Contains CSS stylesheets, including `globals.css` for global styles.
+- **public/**: Contains static assets such as images.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions to the project are welcome. You can contribute by reporting issues, suggesting improvements, or directly making pull requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Create a new Pull Request.
